@@ -1,0 +1,19 @@
+{
+  "name": "pokebattle",
+  "version": "0.0.1",
+  "description": "Pokemon Battle System Replication",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qorcjftns/pokebattle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qorcjftns/pokebattle/issues"
+  },
+  "homepage": "https://github.com/qorcjftns/pokebattle#readme"
+}
