@@ -1,4 +1,5 @@
 var basestat = {}
+
 basestat['001'] = {name_en: "Bulbasaur", hp: 45, atk: 49, def: 49, spatk: 65, spdef: 65, spd: 45}
 basestat['002'] = {name_en: "Ivysaur", hp: 60, atk: 62, def: 63, spatk: 80, spdef: 80, spd: 60}
 basestat['003'] = {name_en: "Venusaur", hp: 80, atk: 82, def: 83, spatk: 100, spdef: 100, spd: 80}

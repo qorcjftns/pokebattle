@@ -1,5 +1,6 @@
 // requires
 var base = require('./basestat.js');
+var move = require('./move.js');
 
 // Initializer
 function Pokemon(dexid) {
@@ -59,10 +60,6 @@ proto.calculateStats = function() {
 	}
 }
 
-
-// Getters
-proto.getDexID = function() { return this.dex_id; };
-
 // Setters
 proto.setDexID = function(dexid) { this.dex_id = dexid; }
 proto.setLevel = function(lvl) { this.level = lvl; }
@@ -85,6 +82,9 @@ proto.setEV = function(hp, atk, def, spatk, spdef, spd) {
 		spdef: spdef,
 		spd: spd
 	};
+}
+proto.setMoves = function(m) {
+	this.moves = m;	
 }
 
 // Exports
