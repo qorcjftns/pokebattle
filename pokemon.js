@@ -58,6 +58,7 @@ proto.calculateStats = function() {
 		spdef: this.calcStat(this.base.spdef, this.iv.spdef, this.ev.spdef, this.level),
 		spd: this.calcStat(this.base.spd, this.iv.spd, this.ev.spd, this.level),
 	}
+	this.hp = this.av.hp;
 }
 
 // Setters
